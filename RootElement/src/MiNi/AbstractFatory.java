@@ -1,24 +1,10 @@
 package MiNi;
 
-public class AbstractFatory {
+public abstract class AbstractFatory {
 
-	/**
-	 * 
-	 * @return 
-	 */
-	public FBS getFBS() { 
-		// TODO Auto-generated method
-		return null;
-	 }
+	abstract FBS getFBS();
 
-	/**
-	 * 
-	 * @return 
-	 */
-	public BP getBP() { 
-		// TODO Auto-generated method
-		return null;
-	 }
+	abstract BP getBP();
 
 	/**
 	 * 
