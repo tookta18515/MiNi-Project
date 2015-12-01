@@ -119,6 +119,12 @@
         <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
       </profileApplication>
     </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mr2w4Jf2EeWRX-D4SToBtA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_msHPkJf2EeWRX-D4SToBtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </profileApplication>
   </uml:Model>
   <java:JavaClass xmi:id="_MegFcJfxEeWDtK3XKSj5_g" base_Classifier="_uxXGcJaYEeW5SYNwpECpVA"/>
   <java:JavaClass xmi:id="_OEpj4JfxEeWDtK3XKSj5_g" base_Classifier="_Z0_kwJaZEeW5SYNwpECpVA"/>
