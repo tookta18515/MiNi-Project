@@ -1,41 +1,10 @@
 
 
-public class AbstractFactory extends DiseaseFactory {
+public abstract class AbstractFactory extends DiseaseFactory {
 
-	/**
-	 * 
-	 * @return 
-	 */
-	public FBS getFBS() { 
-		// TODO Auto-generated method
-		return null;
-	 }
-
-	/**
-	 * 
-	 * @return 
-	 */
-	public Disease getDisease() { 
-		// TODO Auto-generated method
-		return null;
-	 }
-
-	/**
-	 * 
-	 * @return 
-	 */
-	public BP getBP() { 
-		// TODO Auto-generated method
-		return null;
-	 }
-
-	/**
-	 * 
-	 * @return 
-	 */
-	public Status getStatus() { 
-		// TODO Auto-generated method
-		return null;
-	 } 
-
+	
+	abstract FBS getFBS(Integer numFBS);
+	abstract Disease getDisease() ;
+	abstract BP getBP(Integer numBP) ;
+	abstract Status getStatus() ;
 }
