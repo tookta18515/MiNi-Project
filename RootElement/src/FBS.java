@@ -4,7 +4,8 @@ public interface FBS {
 
 	/**
 	 * 
+	 * @param numFBS 
 	 */
-	public void selectFBS(); 
+	public void selectFBS(int numFBS); 
 
 }

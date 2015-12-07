@@ -4,7 +4,8 @@ public interface BP {
 
 	/**
 	 * 
+	 * @param numBP 
 	 */
-	public void selectBP(); 
+	public void selectBP(int numBP); 
 
 }

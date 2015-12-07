@@ -1,6 +1,6 @@
 
 
-public class FBSFactory {
+public class FBSFactory extends AbstractFactory {
 
 	/**
 	 * 

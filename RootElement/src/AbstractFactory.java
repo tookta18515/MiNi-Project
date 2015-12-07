@@ -1,13 +1,9 @@
+import javax.swing.JPanel;
 
+public class AbstractFactory {
 
-public class AbstractFactory extends DiseaseFactory {
-
-	/**
-	 * 
-	 * @return 
-	 */
-	public FBS getFBS() { 
-		// TODO Auto-generated method
+	
+	public Status getStatus() { 
 		return null;
 	 }
 
@@ -33,7 +29,7 @@ public class AbstractFactory extends DiseaseFactory {
 	 * 
 	 * @return 
 	 */
-	public Status getStatus() { 
+	public FBS getFBS() { 
 		// TODO Auto-generated method
 		return null;
 	 } 

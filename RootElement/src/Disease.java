@@ -2,9 +2,6 @@
 
 public interface Disease {
 
-	/**
-	 * 
-	 */
-	public void selectDisease(); 
+	public void selectDisease(String sickness ); 
 
 }
