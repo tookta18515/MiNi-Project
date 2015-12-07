@@ -1,19 +1,13 @@
+import java.awt.Color;
+import java.awt.Graphics;
 
+import javax.swing.JPanel;
 
-public class Red implements Status {
+public class Red extends JPanel implements Status {
 
-	/**
-	 * 
-	 */
-	public void fill() { 
-		// TODO Auto-generated method
-	 }
-
-	/**
-	 * 
-	 */
-	public void draw() { 
-		// TODO Auto-generated method
+	public void paintComponent(Graphics g) { 
+		g.setColor(Color.red);
+		g.fillOval(50, 50, 300, 300);
 	 } 
 
 }

@@ -1,15 +1,8 @@
-
+import java.awt.Graphics;
 
 public interface Status {
 
-	/**
-	 * 
-	 */
-	public void fill();
-
-	/**
-	 * 
-	 */
-	public void draw(); 
+	public void paintComponent(Graphics g); 
+	
 
 }

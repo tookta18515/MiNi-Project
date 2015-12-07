@@ -1,6 +1,6 @@
 
 
-public class BPFactory {
+public class BPFactory extends AbstractFactory {
 
 	/**
 	 * 

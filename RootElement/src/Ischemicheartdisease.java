@@ -1,12 +1,10 @@
+import javax.swing.JPanel;
 
+public class Ischemicheartdisease extends JPanel implements Disease {
 
-public class Ischemicheartdisease implements Disease {
-
-	/**
-	 * 
-	 */
-	public void selectDisease() { 
-		// TODO Auto-generated method
+	public void selectDisease(String sickness ) { 
+		sickness="Ischemicheartdisease";
+		System.out.println(sickness);
 	 } 
 
 }
