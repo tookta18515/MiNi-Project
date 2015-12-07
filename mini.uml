@@ -1,113 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_5Ax9QJaXEeW5SYNwpECpVA" name="RootElement">
-  <packagedElement xmi:type="uml:Class" xmi:id="_iGYBkJaYEeW5SYNwpECpVA" name="Demo"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_lxx8UJaYEeW5SYNwpECpVA" name="FactoryResult">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_9rswoJcNEeWMhMUIPGMaAQ" name="getFactory">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_E4EQsJcOEeWMhMUIPGMaAQ" type="_pmSIsJaYEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_pmSIsJaYEeW5SYNwpECpVA" name="AbstractFatory">
-    <generalization xmi:type="uml:Generalization" xmi:id="_YxteoJagEeW5SYNwpECpVA" general="_Z0_kwJaZEeW5SYNwpECpVA"/>
-    <generalization xmi:type="uml:Generalization" xmi:id="_ZzuVQJagEeW5SYNwpECpVA" general="_7L1NoJaZEeW5SYNwpECpVA"/>
-    <generalization xmi:type="uml:Generalization" xmi:id="_jQJW8JahEeW5SYNwpECpVA" general="_pyOBAJaaEeW5SYNwpECpVA"/>
-    <generalization xmi:type="uml:Generalization" xmi:id="_6je6kJahEeW5SYNwpECpVA" general="_uxXGcJaYEeW5SYNwpECpVA"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Blm24JcNEeWMhMUIPGMaAQ" name="getStatus">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vd4B0JcNEeWMhMUIPGMaAQ" type="_zbqSYJaYEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_GgdnUJcNEeWMhMUIPGMaAQ" name="getFBS">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_a0BAEJcNEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_I2GpAJcNEeWMhMUIPGMaAQ" name="getDisease">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2jeJsJcNEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_OKQqQJcNEeWMhMUIPGMaAQ" name="getBP">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6oQ00JcNEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_uxXGcJaYEeW5SYNwpECpVA" name="StatusFatory">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_KPR34JcMEeWMhMUIPGMaAQ" name="getStatus">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z3CP4JcMEeWMhMUIPGMaAQ" type="_zbqSYJaYEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_zbqSYJaYEeW5SYNwpECpVA" name="Status"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_8IKvgJaYEeW5SYNwpECpVA" name="Bkack"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_BHDrYJaZEeW5SYNwpECpVA" name="Yellow"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_DAB_MJaZEeW5SYNwpECpVA" name="Orange"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_FOQKQJaZEeW5SYNwpECpVA" name="Red"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_KNBxYJaZEeW5SYNwpECpVA" name="White"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LhJrsJaZEeW5SYNwpECpVA" name="Light_Green"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_SCl_cJaZEeW5SYNwpECpVA" name="Dark_Green"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_Z0_kwJaZEeW5SYNwpECpVA" name="FBSFatory">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_mSCtIJcOEeWMhMUIPGMaAQ" name="getFBS">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pjTpkJcOEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_cishIJaZEeW5SYNwpECpVA" name="FBS">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_qHUVkJcOEeWMhMUIPGMaAQ" name="select">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uIJtwJcOEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_fEE4wJaZEeW5SYNwpECpVA" name="FBS1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_i87ZoJaZEeW5SYNwpECpVA" name="FBS2"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_pKNbQJaZEeW5SYNwpECpVA" name="FBS3"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_tGm_YJaZEeW5SYNwpECpVA" name="FBS4"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_t5XSAJaZEeW5SYNwpECpVA" name="FBS5"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_vsSoMJaZEeW5SYNwpECpVA" name="BP1"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_7L1NoJaZEeW5SYNwpECpVA" name="BPFactory">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_bGkTMJcOEeWMhMUIPGMaAQ" name="getBP">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eQc1QJcOEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_W9q84JaaEeW5SYNwpECpVA" name="BP">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_fpS3gJcOEeWMhMUIPGMaAQ" name="getBP">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_it0YcJcOEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_ZujJEJaaEeW5SYNwpECpVA" name="BP2"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_dSTjsJaaEeW5SYNwpECpVA" name="BP3"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_iZSroJaaEeW5SYNwpECpVA" name="BP4"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_jcUO4JaaEeW5SYNwpECpVA" name="BP5"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_pyOBAJaaEeW5SYNwpECpVA" name="DiseaseFactory">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_LwzDEJcOEeWMhMUIPGMaAQ" name="getDisease">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RBlAMJcOEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_vAh48JaaEeW5SYNwpECpVA" name="Disease">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_UGBBkJcOEeWMhMUIPGMaAQ" name="getDisease">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZCWYsJcOEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
-    </ownedOperation>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_1PofgJaaEeW5SYNwpECpVA" name="Ischemic_heaet_disease"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_DcwFgJabEeW5SYNwpECpVA" name="Paralysis"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Ih9EwJabEeW5SYNwpECpVA" name="Chronic_Kidney_Disease"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_TLJRAJabEeW5SYNwpECpVA" name="Necrosis"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_VBw0YJabEeW5SYNwpECpVA" name="Blind"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_2maaUJacEeW5SYNwpECpVA" name="creates" client="_uxXGcJaYEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_E3J0sJagEeW5SYNwpECpVA" client="_Z0_kwJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_IzyCUJagEeW5SYNwpECpVA" client="_7L1NoJaZEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_j6GvYJagEeW5SYNwpECpVA" name="implement" client="_8IKvgJaYEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_kg_wQJagEeW5SYNwpECpVA" name="implement" client="_BHDrYJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_leYlkJagEeW5SYNwpECpVA" name="implement" client="_DAB_MJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_mOEWEJagEeW5SYNwpECpVA" name="implement" client="_FOQKQJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_nhPOIJagEeW5SYNwpECpVA" name="implement" client="_KNBxYJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_p_XdcJagEeW5SYNwpECpVA" name="implement" client="_LhJrsJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_r6KWMJagEeW5SYNwpECpVA" name="implement" client="_SCl_cJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_t66tAJagEeW5SYNwpECpVA" name="implement" client="_fEE4wJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_uWcLYJagEeW5SYNwpECpVA" name="implement" client="_i87ZoJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_u41GwJagEeW5SYNwpECpVA" name="implement" client="_pKNbQJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_vQ5ogJagEeW5SYNwpECpVA" name="implement" client="_tGm_YJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_vvPKUJagEeW5SYNwpECpVA" name="implement" client="_t5XSAJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_0tS_wJagEeW5SYNwpECpVA" name="implement" client="_vsSoMJaZEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_1CM4wJagEeW5SYNwpECpVA" name="implement" client="_ZujJEJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_1U7AcJagEeW5SYNwpECpVA" name="implement" client="_dSTjsJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_1sd9wJagEeW5SYNwpECpVA" name="implement" client="_iZSroJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_2MfhoJagEeW5SYNwpECpVA" name="implement" client="_jcUO4JaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_5totIJagEeW5SYNwpECpVA" name="implement" client="_1PofgJaaEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_6BgrYJagEeW5SYNwpECpVA" name="implement" client="_DcwFgJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_6UxloJagEeW5SYNwpECpVA" name="implement" client="_Ih9EwJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_6trN0JagEeW5SYNwpECpVA" name="implement" client="_VBw0YJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_0qrUIJahEeW5SYNwpECpVA" name="uses" client="_iGYBkJaYEeW5SYNwpECpVA" supplier="_lxx8UJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_19u3cJahEeW5SYNwpECpVA" name="uses" client="_lxx8UJaYEeW5SYNwpECpVA" supplier="_pmSIsJaYEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_-d-aMJahEeW5SYNwpECpVA" client="_pyOBAJaaEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_AsjKkJaiEeW5SYNwpECpVA" name="implement" client="_TLJRAJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_5Ax9QJaXEeW5SYNwpECpVA" name="RootElement">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_2maaUJacEeW5SYNwpECpVA" name="creates" client="_uxXGcJaYEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_E3J0sJagEeW5SYNwpECpVA" client="_Z0_kwJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_IzyCUJagEeW5SYNwpECpVA" client="_7L1NoJaZEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_j6GvYJagEeW5SYNwpECpVA" name="implement" client="_8IKvgJaYEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_kg_wQJagEeW5SYNwpECpVA" name="implement" client="_BHDrYJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_leYlkJagEeW5SYNwpECpVA" name="implement" client="_DAB_MJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_mOEWEJagEeW5SYNwpECpVA" name="implement" client="_FOQKQJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_nhPOIJagEeW5SYNwpECpVA" name="implement" client="_KNBxYJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_p_XdcJagEeW5SYNwpECpVA" name="implement" client="_LhJrsJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_r6KWMJagEeW5SYNwpECpVA" name="implement" client="_SCl_cJaZEeW5SYNwpECpVA" supplier="_zbqSYJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_t66tAJagEeW5SYNwpECpVA" name="implement" client="_fEE4wJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_uWcLYJagEeW5SYNwpECpVA" name="implement" client="_i87ZoJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_u41GwJagEeW5SYNwpECpVA" name="implement" client="_pKNbQJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_vQ5ogJagEeW5SYNwpECpVA" name="implement" client="_tGm_YJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_vvPKUJagEeW5SYNwpECpVA" name="implement" client="_t5XSAJaZEeW5SYNwpECpVA" supplier="_cishIJaZEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_0tS_wJagEeW5SYNwpECpVA" name="implement" client="_vsSoMJaZEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_1CM4wJagEeW5SYNwpECpVA" name="implement" client="_ZujJEJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_1U7AcJagEeW5SYNwpECpVA" name="implement" client="_dSTjsJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_1sd9wJagEeW5SYNwpECpVA" name="implement" client="_iZSroJaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_2MfhoJagEeW5SYNwpECpVA" name="implement" client="_jcUO4JaaEeW5SYNwpECpVA" supplier="_W9q84JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_5totIJagEeW5SYNwpECpVA" name="implement" client="_1PofgJaaEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_6BgrYJagEeW5SYNwpECpVA" name="implement" client="_DcwFgJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_6UxloJagEeW5SYNwpECpVA" name="implement" client="_Ih9EwJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_6trN0JagEeW5SYNwpECpVA" name="implement" client="_VBw0YJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0qrUIJahEeW5SYNwpECpVA" name="uses" client="_iGYBkJaYEeW5SYNwpECpVA" supplier="_lxx8UJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_19u3cJahEeW5SYNwpECpVA" name="uses" client="_lxx8UJaYEeW5SYNwpECpVA" supplier="_pmSIsJaYEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_-d-aMJahEeW5SYNwpECpVA" client="_pyOBAJaaEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_AsjKkJaiEeW5SYNwpECpVA" name="implement" client="_TLJRAJabEeW5SYNwpECpVA" supplier="_vAh48JaaEeW5SYNwpECpVA"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0OkWsJfwEeWDtK3XKSj5_g" name="MiNi">
+      <packagedElement xmi:type="uml:Class" xmi:id="_lxx8UJaYEeW5SYNwpECpVA" name="FactoryResult">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_9rswoJcNEeWMhMUIPGMaAQ" name="getFactory">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_E4EQsJcOEeWMhMUIPGMaAQ" type="_pmSIsJaYEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZujJEJaaEeW5SYNwpECpVA" name="BP2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dSTjsJaaEeW5SYNwpECpVA" name="BP3"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Z0_kwJaZEeW5SYNwpECpVA" name="FBSFatory">
+        <generalization xmi:type="uml:Generalization" xmi:id="_CFXucJfxEeWDtK3XKSj5_g" general="_pmSIsJaYEeW5SYNwpECpVA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_mSCtIJcOEeWMhMUIPGMaAQ" name="getFBS">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_pjTpkJcOEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_pyOBAJaaEeW5SYNwpECpVA" name="DiseaseFactory">
+        <generalization xmi:type="uml:Generalization" xmi:id="_DH1RAJfxEeWDtK3XKSj5_g" general="_pmSIsJaYEeW5SYNwpECpVA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_LwzDEJcOEeWMhMUIPGMaAQ" name="getDisease">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_RBlAMJcOEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TLJRAJabEeW5SYNwpECpVA" name="Necrosis"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BHDrYJaZEeW5SYNwpECpVA" name="Yellow"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_LhJrsJaZEeW5SYNwpECpVA" name="Light_Green"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iZSroJaaEeW5SYNwpECpVA" name="BP4"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_t5XSAJaZEeW5SYNwpECpVA" name="FBS5"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8IKvgJaYEeW5SYNwpECpVA" name="Bkack"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pKNbQJaZEeW5SYNwpECpVA" name="FBS3"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_7L1NoJaZEeW5SYNwpECpVA" name="BPFactory">
+        <generalization xmi:type="uml:Generalization" xmi:id="_HkY74JfxEeWDtK3XKSj5_g" general="_pmSIsJaYEeW5SYNwpECpVA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_bGkTMJcOEeWMhMUIPGMaAQ" name="getBP">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_eQc1QJcOEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pmSIsJaYEeW5SYNwpECpVA" name="AbstractFatory">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Blm24JcNEeWMhMUIPGMaAQ" name="getStatus">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vd4B0JcNEeWMhMUIPGMaAQ" type="_zbqSYJaYEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_GgdnUJcNEeWMhMUIPGMaAQ" name="getFBS">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_a0BAEJcNEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_I2GpAJcNEeWMhMUIPGMaAQ" name="getDisease">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_2jeJsJcNEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_OKQqQJcNEeWMhMUIPGMaAQ" name="getBP">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_6oQ00JcNEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VBw0YJabEeW5SYNwpECpVA" name="Blind"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iGYBkJaYEeW5SYNwpECpVA" name="Demo"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_uxXGcJaYEeW5SYNwpECpVA" name="StatusFatory">
+        <generalization xmi:type="uml:Generalization" xmi:id="_A5ULAJfxEeWDtK3XKSj5_g" general="_pmSIsJaYEeW5SYNwpECpVA"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_KPR34JcMEeWMhMUIPGMaAQ" name="getStatus">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z3CP4JcMEeWMhMUIPGMaAQ" type="_zbqSYJaYEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1PofgJaaEeW5SYNwpECpVA" name="Ischemic_heaet_disease"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_i87ZoJaZEeW5SYNwpECpVA" name="FBS2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vsSoMJaZEeW5SYNwpECpVA" name="BP1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DcwFgJabEeW5SYNwpECpVA" name="Paralysis"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_W9q84JaaEeW5SYNwpECpVA" name="BP">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_fpS3gJcOEeWMhMUIPGMaAQ" name="getBP">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_it0YcJcOEeWMhMUIPGMaAQ" type="_W9q84JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DAB_MJaZEeW5SYNwpECpVA" name="Orange"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KNBxYJaZEeW5SYNwpECpVA" name="White"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cishIJaZEeW5SYNwpECpVA" name="FBS">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_qHUVkJcOEeWMhMUIPGMaAQ" name="select">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_uIJtwJcOEeWMhMUIPGMaAQ" type="_cishIJaZEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SCl_cJaZEeW5SYNwpECpVA" name="Dark_Green"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zbqSYJaYEeW5SYNwpECpVA" name="Status"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vAh48JaaEeW5SYNwpECpVA" name="Disease">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_UGBBkJcOEeWMhMUIPGMaAQ" name="getDisease">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZCWYsJcOEeWMhMUIPGMaAQ" type="_vAh48JaaEeW5SYNwpECpVA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FOQKQJaZEeW5SYNwpECpVA" name="Red"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tGm_YJaZEeW5SYNwpECpVA" name="FBS4"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jcUO4JaaEeW5SYNwpECpVA" name="BP5"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ih9EwJabEeW5SYNwpECpVA" name="Chronic_Kidney_Disease"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fEE4wJaZEeW5SYNwpECpVA" name="FBS1"/>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ljw7gJfxEeWDtK3XKSj5_g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lj0l4JfxEeWDtK3XKSj5_g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+      </profileApplication>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_mr2w4Jf2EeWRX-D4SToBtA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_msHPkJf2EeWRX-D4SToBtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </profileApplication>
+  </uml:Model>
+  <java:JavaClass xmi:id="_MegFcJfxEeWDtK3XKSj5_g" base_Classifier="_uxXGcJaYEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_OEpj4JfxEeWDtK3XKSj5_g" base_Classifier="_Z0_kwJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_PEVfQJfxEeWDtK3XKSj5_g" base_Classifier="_7L1NoJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_Qn_qYJfxEeWDtK3XKSj5_g" base_Classifier="_iGYBkJaYEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_RVwvUJfxEeWDtK3XKSj5_g" base_Classifier="_lxx8UJaYEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_SHrUcJfxEeWDtK3XKSj5_g" base_Operation="_9rswoJcNEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_T1rHUJfxEeWDtK3XKSj5_g" base_Classifier="_pyOBAJaaEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_UgJAoJfxEeWDtK3XKSj5_g" base_Operation="_LwzDEJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_VaK_8JfxEeWDtK3XKSj5_g" base_Classifier="_vAh48JaaEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_WI9_oJfxEeWDtK3XKSj5_g" base_Operation="_UGBBkJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_XrEEgJfxEeWDtK3XKSj5_g" base_Classifier="_1PofgJaaEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_YoNpQJfxEeWDtK3XKSj5_g" base_Classifier="_DcwFgJabEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_ZSn4MJfxEeWDtK3XKSj5_g" base_Classifier="_Ih9EwJabEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_Z7To0JfxEeWDtK3XKSj5_g" base_Classifier="_VBw0YJabEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_avL80JfxEeWDtK3XKSj5_g" base_Classifier="_TLJRAJabEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_bwyjwJfxEeWDtK3XKSj5_g" base_Operation="_bGkTMJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_dIFG0JfxEeWDtK3XKSj5_g" base_Classifier="_W9q84JaaEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_d1jQ0JfxEeWDtK3XKSj5_g" base_Operation="_fpS3gJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaMethod xmi:id="_fAQJYJfxEeWDtK3XKSj5_g" base_Operation="_qHUVkJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_f4tbYJfxEeWDtK3XKSj5_g" base_Classifier="_cishIJaZEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_h8wWwJfxEeWDtK3XKSj5_g" base_Operation="_mSCtIJcOEeWMhMUIPGMaAQ"/>
+  <java:JavaMethod xmi:id="_jAUskJfxEeWDtK3XKSj5_g" base_Operation="_KPR34JcMEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_kMoHoJfxEeWDtK3XKSj5_g" base_Classifier="_pmSIsJaYEeW5SYNwpECpVA"/>
+  <java:JavaMethod xmi:id="_k-BIUJfxEeWDtK3XKSj5_g" base_Operation="_Blm24JcNEeWMhMUIPGMaAQ"/>
+  <java:JavaMethod xmi:id="_meYu4JfxEeWDtK3XKSj5_g" base_Operation="_GgdnUJcNEeWMhMUIPGMaAQ"/>
+  <java:JavaMethod xmi:id="_nU5gIJfxEeWDtK3XKSj5_g" base_Operation="_I2GpAJcNEeWMhMUIPGMaAQ"/>
+  <java:JavaMethod xmi:id="_oG3IkJfxEeWDtK3XKSj5_g" base_Operation="_OKQqQJcNEeWMhMUIPGMaAQ"/>
+  <java:JavaClass xmi:id="_ps__8JfxEeWDtK3XKSj5_g" base_Classifier="_zbqSYJaYEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_qZ3tAJfxEeWDtK3XKSj5_g" base_Classifier="_fEE4wJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_q-byoJfxEeWDtK3XKSj5_g" base_Classifier="_i87ZoJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_ru3KAJfxEeWDtK3XKSj5_g" base_Classifier="_pKNbQJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_sojLEJfxEeWDtK3XKSj5_g" base_Classifier="_tGm_YJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_tP10kJfxEeWDtK3XKSj5_g" base_Classifier="_t5XSAJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_uP4VQJfxEeWDtK3XKSj5_g" base_Classifier="_vsSoMJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_u21nkJfxEeWDtK3XKSj5_g" base_Classifier="_ZujJEJaaEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_viZGAJfxEeWDtK3XKSj5_g" base_Classifier="_dSTjsJaaEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_wIFNAJfxEeWDtK3XKSj5_g" base_Classifier="_iZSroJaaEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_wxn5QJfxEeWDtK3XKSj5_g" base_Classifier="_jcUO4JaaEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_x7x_QJfxEeWDtK3XKSj5_g" base_Classifier="_8IKvgJaYEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_yfLnQJfxEeWDtK3XKSj5_g" base_Classifier="_BHDrYJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_zA3YAJfxEeWDtK3XKSj5_g" base_Classifier="_DAB_MJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_zi_0sJfxEeWDtK3XKSj5_g" base_Classifier="_FOQKQJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_0HOjIJfxEeWDtK3XKSj5_g" base_Classifier="_KNBxYJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_1WkEEJfxEeWDtK3XKSj5_g" base_Classifier="_LhJrsJaZEeW5SYNwpECpVA"/>
+  <java:JavaClass xmi:id="_3hVSgJfxEeWDtK3XKSj5_g" base_Classifier="_SCl_cJaZEeW5SYNwpECpVA"/>
+</xmi:XMI>
