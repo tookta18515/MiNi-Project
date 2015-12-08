@@ -1,13 +1,11 @@
-
+package hello;
 
 public class BP5 implements BP {
 
-	/**
-	 * 
-	 * @param numBP 
-	 */
-	public void selectBP(int numBP) { 
-		// TODO Auto-generated method
+	public String selectBP() { 
+		String ill2 =	"Ill2";
+		return ill2;
+		
 	 } 
 
 }

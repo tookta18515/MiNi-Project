@@ -1,7 +1,7 @@
-
+package hello;
 
 public interface Disease {
 
-	public void selectDisease(String sickness ); 
+	public String selectDisease(); 
 
 }

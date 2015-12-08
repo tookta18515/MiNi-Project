@@ -1,8 +1,9 @@
+package hello;
 import java.awt.Graphics;
 
 public interface Status {
 
-	public void paintComponent(Graphics g); 
+	public void paint(Graphics g); 
 	
 
 }
