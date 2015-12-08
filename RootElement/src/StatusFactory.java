@@ -1,26 +1,32 @@
+package hello;
+import java.awt.Color;
+import java.awt.Graphics;
+
 import javax.swing.JPanel;
 
 public class StatusFactory {
 
 	
-	public JPanel getStatus(String color) { 
-		if(color == null){
-			return null;
-		}
-		if(color.equalsIgnoreCase("RED")){
-			return new Red();
-		}else if(color.equalsIgnoreCase("WHITE")){
+	
+	public static JPanel getStatus(String color) { 
+		
+		if(color.equalsIgnoreCase("Normal")){
 			return new White();
-		}else if(color.equalsIgnoreCase("ORANGE")){
-			return new Orange();
-		}else if(color.equalsIgnoreCase("LIGHTGREEN")){
+		}else if(color.equalsIgnoreCase("Risk")){
 			return new Light_Green();
-		}else if(color.equalsIgnoreCase("DARKGREEN")){
+		}else if(color.equalsIgnoreCase("Ill0")){
 			return new Dark_Green();
-		}else if(color.equalsIgnoreCase("BLACK")){
+		}else if(color.equalsIgnoreCase("Ill1")){
+			return new Yellow();
+		}else if(color.equalsIgnoreCase("Ill2")){
+			return new Orange();
+		}else if(color.equalsIgnoreCase("Ill3")){
+			return new Red();
+		}else if(color.equalsIgnoreCase("IncurrentDisease")){
 			return new Black();
-		}
-		return null;
+		}else
+			return null;
 	 } 
+	
+	}
 
-}

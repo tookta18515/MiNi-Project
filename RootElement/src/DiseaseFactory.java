@@ -1,23 +1,17 @@
+package hello;
 import javax.swing.JPanel;
 
-public class DiseaseFactory extends AbstractFactory {
+public class DiseaseFactory {
 
-	public JPanel getDisease(String mode) { 
-		if(mode == null){
-			return null;
+	public static Disease getDisease(String mode) { 
+		
+		if(mode.equalsIgnoreCase("IncurrentDisease")){
+			return new Incurrent_Disease();
+		}else{
+			return new Non_Incurrent_Disease();
 		}
-		if(mode.equalsIgnoreCase("Blind")){
-			return new Blind();
-		}else if(mode.equalsIgnoreCase("ChronicKidneyDisease")){
-			return new ChronicKidneyDisease();
-		}else if(mode.equalsIgnoreCase("Ischemicheartdisease")){
-			return new Ischemicheartdisease();
-		}else if(mode.equalsIgnoreCase("Necrosis")){
-			return new Necrosis();
-		}else if(mode.equalsIgnoreCase("Paralysis")){
-			return new Paralysis();
-		}
-		return null;
+		
 	 } 
+	
 
 }

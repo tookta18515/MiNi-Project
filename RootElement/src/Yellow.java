@@ -1,11 +1,16 @@
+package hello;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Yellow implements Status {
+import javax.swing.JPanel;
 
-	public void paintComponent(Graphics g) { 
+public class Yellow extends JPanel implements Status {
+
+	public void paint(Graphics g) { 
+		 super.paint(g);
 		g.setColor(Color.yellow);
-		g.fillOval(50, 50, 300, 300);
+		g.fillOval(0,0, 200, 200);
+		
 	 }  
 
 }
