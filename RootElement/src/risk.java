@@ -1,6 +1,6 @@
-package hello;
 
-public class BP2 implements BP {
+
+public class risk implements calLevel {
 
 
 	public String selectBP() { 

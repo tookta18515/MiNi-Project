@@ -1,7 +1,6 @@
-package hello;
 
 
-public class BP1 implements BP {
+public class normal implements calLevel {
 
 	public String selectBP() { 
 		

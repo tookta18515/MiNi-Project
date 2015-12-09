@@ -1,4 +1,4 @@
-package hello;
+
 import javax.swing.JPanel;
 
 public class DiseaseFactory {
@@ -6,9 +6,9 @@ public class DiseaseFactory {
 	public static Disease getDisease(String mode) { 
 		
 		if(mode.equalsIgnoreCase("IncurrentDisease")){
-			return new Incurrent_Disease();
+			return new Complication();
 		}else{
-			return new Non_Incurrent_Disease();
+			return new NoComplication();
 		}
 		
 	 } 

@@ -1,6 +1,6 @@
-package hello;
 
-public class BP5 implements BP {
+
+public class ill2 implements calLevel {
 
 	public String selectBP() { 
 		String ill2 =	"Ill2";

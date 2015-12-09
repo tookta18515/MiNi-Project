@@ -1,5 +1,5 @@
-package hello;
-public class BP7 implements BP{
+
+public class heavy implements calLevel{
 	
 	public String selectBP() { 
 		String ill5 =	"IncurrentDisease";
