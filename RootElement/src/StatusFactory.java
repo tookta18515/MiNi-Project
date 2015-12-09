@@ -1,6 +1,3 @@
-package hello;
-import java.awt.Color;
-import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
@@ -25,7 +22,8 @@ public class StatusFactory {
 		}else if(color.equalsIgnoreCase("IncurrentDisease")){
 			return new Black();
 		}else
-			return null;
+		
+		return null;
 	 } 
 	
 	}

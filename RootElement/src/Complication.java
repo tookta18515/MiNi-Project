@@ -1,6 +1,6 @@
-package hello;
 
-public class Incurrent_Disease implements Disease {
+
+public class Complication implements Disease {
 	
 	public String selectDisease(){
 		String ID =	"you may have incurrent disease as follows "
